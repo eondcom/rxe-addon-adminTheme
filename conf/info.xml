@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">관리자테마 애드온</title>
+	<description xml:lang="ko">
+		관리자스킨 CSS를 불러오는 애드온입니다.
+	</description>
+	<version>0.2</version>
+	<date>2018-10-24</date>
+
+	<author email_address="eond@eond.com" link="http://eond.com">
+		<name xml:lang="ko">이온디</name>
+	</author>
+	<extra_vars>
+		<var name="skin">
+			<title xml:lang="ko">스킨 CSS</title>
+			<description xml:lang="ko">스킨 CSS 폴더명을 입력해 주세요.</description>
+		</var>
+	</extra_vars>
+</addon>

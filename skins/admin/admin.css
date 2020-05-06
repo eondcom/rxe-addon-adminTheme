@@ -1,0 +1,29 @@
+@charset "utf-8";
+body{    background: #25282f;}
+body .x>.header{    background: #25282f;border-bottom:0;}
+body .x>.header:before{box-shadow:none;}
+body .x>.header>h1>a{color:#fff;}
+body .message.update{display:none;}
+body .x .x_page-header{border-bottom:1px solid #434857}
+body .x .x_page-header>h1{color:#434857;}
+section{background:#fff}
+body .x>.body>.gnb>ul{box-shadow:none;border:0;}
+body .x>.body>.gnb>ul>li{border-top:0;}
+
+body .x>.body>.content{
+	background:#fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: -15px;
+	margin-top: 15px;
+	border-radius: 4px;
+	padding-bottom: 15px;
+}
+/*메뉴*/
+body .x>.body>.gnb>ul>li,
+body .x>.body>.gnb>ul>li.open>a,
+body .x>.body>.gnb>ul>li.active{background:#444856;}
+/*body .x>.body>.gnb>ul>li.open, .x>.body>.gnb>ul>li.active{padding-bottom:0;}*/
+
+/*컨텐츠넓이*/
+body>.x:first-child{max-width:inherit !important;}
