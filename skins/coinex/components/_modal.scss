@@ -1,0 +1,13 @@
+/*모달창*/
+
+body {
+	.x_modal{
+		/*left: inherit;*/
+		//margin-left:-250px;
+		border:1px solid red;
+		position: absolute;
+		width:500px;
+		top:100px;
+		margin-left: 100px !important;
+	}
+}
