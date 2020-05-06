@@ -13,4 +13,4 @@ if($called_position == 'before_display_content')
 	$skin = '/'.$addon_info->skin;
 	Context::addCSSFile($addon_info->skin_path.$skin.$skin.'.css');
 	return;
-}elseif($called_position != 'before_display_content') return;
+}
